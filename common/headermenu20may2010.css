@@ -1,0 +1,266 @@
+﻿td img {
+/* Another Mozilla/Netscape bug with making sure our images display correctly */
+	display: block;
+}
+
+#FWTableContainer1599768898 {
+/* The master div to make sure that our popup menus get aligned correctly.  Be careful when playing with this one. */
+	/*position:relative;*/
+	margin:0px;
+	width:815px;
+	height:100px;
+	text-align:left;
+	background-color: #222222;
+}
+
+/***********************************************/
+/* Comboboxes                                  */
+/***********************************************/
+.lgryBox{
+	width:113px;
+	height:15px;
+	background:url('../images/drp_gry.gif') #4A4B49 no-repeat top right;
+	border-top:1px solid #5D5E5D;
+	border-left:1px solid #5D5E5D;
+	border-right:1px solid #414240;
+	border-bottom:1px solid #414240;
+	font-size:10px;
+	color:#b7d30b;
+	padding:0px 2px;
+	margin-top:5px;
+}
+.lgryDropDown {
+	position:absolute;
+	border-top:1px solid #9c9d95;
+	border-left:1px solid #9c9d95;
+	border-right:1px solid #707167;
+	border-bottom:1px solid #707167;
+	background-color:#878881;
+	visibility:hidden;
+	width: 160px;
+	overflow-x:hidden;
+	z-index:1000;
+	text-align:left;
+	font-size:8px;
+}
+.lgryDropDown a{
+	display: block;
+	border-bottom:1px solid #9c9d95;
+	padding: 0px 5px;
+	width: 150px;
+	height: 16px;
+	overflow:hidden;
+	color:#ffffff;
+	text-decoration:none;
+	cursor:hand;
+}
+
+.lgryDropDown a:hover{
+	color:#212121;
+	text-decoration:none;
+}
+/******************************************/
+.dgryBox{
+	width:146px;
+	height:15px;
+	background:url('../images/drp_gry.gif') #4a4b49 no-repeat top right;
+	border-top:1px solid #5D5E5D;
+	border-left:1px solid #5D5E5D;
+	border-right:1px solid #414240;
+	border-bottom:1px solid #414240;
+	font-size:11px;
+	color:#ffffff;
+	padding:0px 2px;
+	margin:5px 0px;
+}
+.dgryDropDown {
+	position:absolute;
+	border-top:0px;
+	border-left:1px solid #5d5e5d;
+	border-right:1px solid #242524;
+	border-bottom:1px solid #242524;
+	background-color:#333432;
+	visibility:hidden;
+	width: 150px;
+	/*width: 190px; new*/
+	overflow-x:hidden;
+	z-index:1000;
+	/*****************/
+	height:210px;
+	overflow:scroll;
+	overflow-x:hidden;
+	scrollbar-3dlight-color:#5D5E5D;
+	scrollbar-arrow-color:#b7d30b;
+	scrollbar-base-color:#b7d30b;
+	scrollbar-track-color:#5D5E5D;
+	scrollbar-darkshadow-color:#414240;
+	scrollbar-face-color:#4A4B49;
+	scrollbar-highlight-color:#5D5E5D;
+	scrollbar-shadow-color:#414240;	
+}
+.dgryDropDown a{
+	display: block;
+	background-color:#4a4b49;
+	border-bottom:1px solid #5d5e5d;
+	padding: 0px 5px;
+	width: 146px;
+	/*width: 190px; new*/
+	height: 16px;
+	overflow:hidden;
+	color:#ffffff;
+	text-decoration:none;
+	cursor:hand;
+}
+.dgryDropDown a:hover{
+	color:#b7d30b;
+	text-decoration:none;
+}
+
+.dgryDropDown a.highLight{
+	display: block;
+	background-color:#bed30b;
+	border-top:1px solid #dfec72;
+	border-left:1px solid #dfec72;
+	border-right:1px solid #95a602;
+	border-bottom:1px solid #95a602;
+	padding: 0px 5px;
+	height: 16px;
+	overflow:hidden;
+	color:#4a4b49;
+	text-decoration:none;
+	cursor:hand;
+	margin-bottom:5px;
+}
+.dgryDropDown a.highLight:hover{
+	color:#212121;
+	text-decoration:none;
+}
+
+
+/******** DropDown Menu without scrolling *********/
+.gryDropDown {
+	position:absolute;
+	border-top:0px;
+	border-left:1px solid #5d5e5d;
+	border-right:1px solid #242524;
+	border-bottom:1px solid #242524;
+	background-color:#333432;
+	visibility:hidden;
+	width:150px;
+	overflow-x:hidden;
+	z-index:1000;
+}
+.gryDropDown a{
+	display: block;
+	background-color:#4a4b49;
+	border-bottom:1px solid #5d5e5d;
+	padding: 0px 5px;
+	width: 146px;
+	height: 16px;
+	overflow:hidden;
+	color:#ffffff;
+	text-decoration:none;
+	cursor:hand;
+}
+.gryDropDown a:hover{
+	color:#b7d30b;
+	text-decoration:none;
+}
+.gryDropDown a.highLight{
+	display: block;
+	background-color:#bed30b;
+	border-top:1px solid #dfec72;
+	border-left:1px solid #dfec72;
+	border-right:1px solid #95a602;
+	border-bottom:1px solid #95a602;
+	padding: 0px 5px;
+	height: 16px;
+	overflow:hidden;
+	color:#4a4b49;
+	text-decoration:none;
+	cursor:hand;
+	margin-bottom:5px;
+}
+.gryDropDown a.highLight:hover{
+	color:#212121;
+	text-decoration:none;
+}
+/******************************************/
+.dgrySBox{
+	width:113px;
+	height:15px;
+	background:url('../images/drp_gry.gif') #4A4B49 no-repeat top right;
+	border-top:1px solid #5D5E5D;
+	border-left:1px solid #5D5E5D;
+	border-right:1px solid #414240;
+	border-bottom:1px solid #414240;
+	font-size:11px;
+	color:#b7d30b;
+	padding:0px 2px;
+	margin-top:5px;
+}
+.dgrySDropDown {
+	position:absolute;
+	border-top:0px;
+	border-left:1px solid #4a4b49;
+	border-right:1px solid #242524;
+	border-bottom:1px solid #242524;
+	background-color:#3a3b39;
+	visibility:hidden;
+	width: 119px;
+	height:255px;
+	/*height:280px; new*/
+	overflow:scroll;
+	overflow-x:hidden;
+	z-index:1000;
+	scrollbar-3dlight-color:#5D5E5D;
+	scrollbar-arrow-color:#b7d30b;
+	scrollbar-base-color:#b7d30b;
+	scrollbar-track-color:#5D5E5D;
+	scrollbar-darkshadow-color:#414240;
+	scrollbar-face-color:#4A4B49;
+	scrollbar-highlight-color:#5D5E5D;
+	scrollbar-shadow-color:#414240;
+}
+.dgrySDropDown a{
+	display: block;
+	border-bottom:1px solid #4a4b49;
+	padding: 0px 5px;
+	width: 95px;
+	/*height: 16px;*/
+	overflow:hidden;
+	color:#ffffff;
+	text-decoration:none;
+	cursor:hand;
+}
+
+.dgrySDropDown a:hover{
+	color:#b7d30b;
+	text-decoration:none;
+}
+
+.dgrySDropDown .highLight{
+	display: block;
+	background-color:#bed30b;
+	border-top:1px solid #dfec72;
+	border-left:1px solid #dfec72;
+	border-right:1px solid #95a602;
+	border-bottom:1px solid #95a602;
+	padding: 0px 5px;
+	height: 16px;
+	overflow:hidden;
+	color:#4a4b49;
+	text-decoration:none;
+	cursor:hand;
+	margin-bottom:5px;
+	font-size:11px;
+}
+
+.dgrySDropDown p{
+	padding: 0px 5px;
+	color:#b7d30b;
+}
+
+
+
+

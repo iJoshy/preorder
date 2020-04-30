@@ -1,0 +1,173 @@
+/* etisalat css */
+
+body {
+	background-color:#FFFFFF;
+
+left top repeat-x #fff; 		margin:0;
+	padding:0;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12pt;
+	font-weight:normal;
+	scrollbar-face-color:#dddddd;
+	scrollbar-track-color:#eeeeee;
+	scrollbar-arrow-color:#333333;
+	scrollbar-shadow-color:#999999;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-highlight-color:#ffffff;
+	height: auto;
+	line-height: 0%;
+	text-decoration: none;
+	}
+
+body a {
+ color:#666666;text-decoration:none;
+ cursor: hand;
+ font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+body a:hover {
+	text-decoration:underline;
+	cursor: hand;
+	font-style: normal;
+	font-weight: normal;
+	color: #8FBF30;
+}
+
+.bodyText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #818181;
+}
+
+.GreyLine {
+	background-image: url(../images/GREY.gif);
+	background-repeat: repeat-y;
+	background-position: center;
+	width: 1px;
+}
+
+.bodyTextGrey {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 17px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #7C7C7C;
+}
+.No-color-line {
+	height: 6px;
+}
+.search-BG {
+	background-image: url(../images/search-bg.png);
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 140px;
+}
+
+
+.bodyTextWhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFF;
+}
+.bodyTextDarkGreen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #1AAEEA;
+}
+.giantHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #8FBF30;
+	text-transform: uppercase;
+}
+
+.LargeHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #8FBF30;
+	text-transform: capitalize;
+}
+.LargeHeaderWhite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #FFF;
+	text-transform: lowercase;
+	font-variant: normal;
+}
+.bodyText-green {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #8FBF30;
+	height: 20px;
+}
+.GreenLine {
+	height: 1px;
+	background-image: url(../images/divider.gif);
+	background-repeat: repeat-x;
+}
+.bodyText-green12px {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 17px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #8FBF30;
+}.footer {
+	background-image: url(../images/etisalat-footer.png);
+	background-repeat: no-repeat;
+	height: 64px;
+	width: 815px;
+}
+.header_BG {
+	background-image: url(../images/etisalat-header.png);
+	background-repeat: no-repeat;
+	height: 64px;
+	width: 815px;
+}
+.bg-right {
+	background-image: url(../images/bg-right.jpg);
+	background-repeat: no-repeat;
+	height: 671px;
+	width: 216px;
+}
+.bg-left {
+	background-image: url(../images/bg-left.jpg);
+	background-repeat: no-repeat;
+	height: 671px;
+	width: 216px;
+}
+.No-color-height {
+	height: 20px;
+}
+.vert-line-1px {
+	width: 1px;
+}

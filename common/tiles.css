@@ -1,0 +1,24 @@
+﻿.tilebackground {
+	vertical-align: bottom;
+	width: 202px;
+	height: 222px;
+	border-radius: 10px;
+}
+
+.outerdiv {
+	width: 170px;
+	height: 50px;
+	position: relative;
+	vertical-align: bottom;
+	top: 110px;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.img {
+	margin-top: 143px;
+	margin-left: 118px;
+	position: relative;
+}
+

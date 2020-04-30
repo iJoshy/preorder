@@ -1,0 +1,58 @@
+﻿/* Elastislide Style */
+.es-carousel-wrapper {
+	margin: -108px auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 3px 13px;
+	border-radius: 10px;
+	position: relative;
+	width: 740px;
+	z-index: 100;
+}
+
+.es-carousel {
+	overflow: hidden;
+}
+
+.es-carousel ul {
+	display: none;
+}
+
+.es-carousel ul li {
+	height: 100%;
+	float: left;
+	list-style-type: none;
+	margin-left: -40px;
+	padding-right: 37px;
+}
+
+.es-carousel ul li a img {
+	border-radius: 6px;
+	margin-top: -9px;
+}
+
+.es-nav span {
+	position: absolute;
+	top: 50%;
+	left: 3px;
+	background: transparent url(../images/home/promobox/nav.png) no-repeat top left;
+	width: 10px;
+	height: 26px;
+	margin-top: -13px;
+	text-indent: -9000px;
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+
+.es-nav span.es-nav-next {
+	right: 5px;
+	left: auto;
+	background-position: top right;
+}
+
+.es-nav span:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+}

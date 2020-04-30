@@ -1,0 +1,83 @@
+﻿/* essence */
+
+body {
+	background-color:#222;
+
+left top repeat-x #fff; margin:0;
+	padding:0;
+	text-align:center;
+	color:#222;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11pt;
+	font-weight:normal;
+	scrollbar-face-color:#dddddd;
+	scrollbar-track-color:#eeeeee;
+	scrollbar-arrow-color:#333333;
+	scrollbar-shadow-color:#999999;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-highlight-color:#ffffff;
+	height: auto;
+	line-height: 0%;
+	text-decoration: none;
+	background-image: url(../images/qr/media-page-bg.jpg);
+	}
+
+body a {
+ color:#666666;text-decoration:none;
+ cursor: hand;
+ font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+body a:hover {
+	text-decoration:underline;
+	cursor: hand;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.bodyText {
+	font-family: Arial,Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 14px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #999;
+}
+.bodyTextDarkGreen {
+	font-family: Arial, Helvetica, sans-serif, Verdana;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #709E18;
+
+}
+
+.LargeHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #0D562E;
+	text-transform: capitalize;
+
+}
+.bodyText-green {
+	font-family: Arial, Helvetica, sans-serif, Verdana;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #709E18;
+	height: 20px;
+}
+.GreenLine {
+	height: 1px;
+	background-image: url(../images/divider.gif);
+	background-repeat: repeat-x;
+	background-color: #0D562E;
+}
